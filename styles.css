@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.Landing-Page{
+    min-height: 100vh;
+background: rgb(34,110,195);
+background: linear-gradient(0deg, rgba(34,110,195,1) 0%, rgba(253,111,45,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    min-height: 70vh;
+    /* background: green; */
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+
+.small{
+    min-width: 16vw;
+    min-height: 50vh;
+    margin: 2rem;
+    /* border: 2px red solid; */
+    border-radius: 2rem;
+    transition: 0.2s all ease-in-out;
+}
+
+.image-1{
+    background-image: url(./Images/bayc-nft-rare.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-2{
+    background-image: url(./Images/E0SvPjUXEAEbMtI.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-3{
+    background-image: url(./Images/unnamed.png);
+    background-position: center;
+    background-size: cover;
+}
+.image-4{
+    background-image: url(./Images/unnamed\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+.image-5{
+    background-image: url(./Images/unnamed\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.small:hover{
+    -webkit-box-shadow: -2px 2px 35px 19px rgba(0,0,0,0.65);
+-moz-box-shadow: -2px 2px 35px 19px rgba(0,0,0,0.65);
+box-shadow: -2px 2px 35px 19px rgba(0,0,0,0.65);
+transform: scale(1.05);
+}
+
+@media screen and (max-width: 900px){
+    .small{
+    min-width: 60vw;
+    min-height: 80vh;
+    margin: 2rem;
+    /* border: 2px red solid; */
+    border-radius: 2rem;
+    transition: 0.2s all ease-in-out;
+}
+}
+
+@media screen and (max-width: 450px){
+    .small{
+    min-width: 70vw;
+    min-height: 50vh;
+    margin: 2rem;
+    /* border: 2px red solid; */
+    border-radius: 2rem;
+    transition: 0.2s all ease-in-out;
+}
+}
+
+@media screen and (max-width: 300px){
+    .small{
+    min-width: 70vw;
+    min-height: 50vh;
+    margin: 2rem;
+    /* border: 2px red solid; */
+    border-radius: 2rem;
+    transition: 0.2s all ease-in-out;
+}
+}
